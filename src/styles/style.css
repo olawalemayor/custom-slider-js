@@ -1,0 +1,38 @@
+.wrapper {
+  position: relative;
+  width: 60%;
+  height: 500px;
+  border: 1px solid #eee;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slide-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.slide-container .slide {
+  height: 100%;
+  min-width: 100%;
+  color: #fff;
+  background-color: #000;
+}
+
+.nav-left,
+.nav-right {
+  position: absolute;
+  top: 50%;
+}
+
+.nav-left {
+  left: 0;
+}
+
+.nav-right {
+  right: 0;
+}
